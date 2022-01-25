@@ -1,0 +1,107 @@
+.shopIcon {
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px black;
+    display: inline-block;
+    flex-basis: 33%;
+    margin: .5% 0;
+}
+
+.shopIcon:nth-child(2) {
+    margin: auto .5%;
+}
+
+.iconBlock {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quickView {
+    position: absolute;
+    color: black;
+    background-color: #bbb;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: calc(1vw + .15em);
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(253, 238, 249);
+    color:rgb(203, 33, 170);
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.newPrice {
+    display: inline-block;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    font-weight: bold;
+    color: #777;
+    font-size: calc(1vw + .2em);
+}
+
+.priceWithDiscount {
+    color: rgb(210, 40, 171);
+    font-weight: bold;
+    font-size: calc(1vw + .2em);
+}
+
+.pathToProduct, .amountReviews {
+    color: #bbb;
+}
+
+.amountReviews {
+    font-weight: 400;
+}
+
+.instalmentBtn, .toBusketBtn {
+    padding: 5px;
+    margin: 5px auto;
+    background: rgb(201,255,233);
+    background: linear-gradient(90deg, rgba(201,255,233,1) 0%, rgba(236,253,93,1) 100%);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.instalmentBtn:hover {
+    background-color: rgb(17, 236, 17);
+}
+
+.toBusketBtn {
+    background:rgb(240, 66, 240);
+}
+
+.toBusketBtn:hover {
+    background: rgb(223, 33, 178);
+}
+
+.selectedBtn {
+    padding-left: 10px;
+    cursor: pointer;
+    color: rgb(240, 66, 240);
+    transition: all .3s;
+}
+
+.selectedBtn:hover {
+    color: rgb(223, 33, 178);
+}
